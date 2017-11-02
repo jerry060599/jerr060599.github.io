@@ -1,0 +1,256 @@
+body
+{
+	background: #004040;
+}
+#top
+{
+	font-family: 'Quicksand', sans-serif;
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imgs/world.jpg) no-repeat fixed center;
+
+	width: 100%;
+	height: calc(100vh - 70px);
+	background-color: #004040;
+	color: white;
+}
+#profilePic
+{
+	position: absolute;
+   	top: 40%;
+   	left: 50%;
+	width: 30vmin;
+	margin-top: -15vmin; 
+   	margin-left: -15vmin; 
+}
+#name
+{
+	position: absolute;
+   	top: 70%;
+   	left: 50%;
+	width: 30vmin;
+	margin-top: -15vmin; 
+   	margin-left: -15vmin; 
+}
+#logo0
+{
+	position: absolute;
+   	top: 20%;
+   	left: 30%;
+	width: 15vmin;
+	margin-top: -7.5vmin; 
+   	margin-left: -7.5vmin; 
+}
+#logo1
+{
+	position: absolute;
+   	top: 40%;
+   	left: 20%;
+	width: 15vmin;
+	margin-top: -7.5vmin; 
+   	margin-left: -7.5vmin; 
+}
+#logo2
+{
+	position: absolute;
+   	top: 60%;
+   	left: 30%;
+	width: 15vmin;
+	margin-top: -7.5vmin; 
+   	margin-left: -7.5vmin; 
+}
+#logo3
+{
+	position: absolute;
+   	top: 20%;
+   	left: 70%;
+	width: 15vmin;
+	margin-top: -7.5vmin; 
+   	margin-left: -7.5vmin; 
+}
+#logo4
+{
+	position: absolute;
+   	top: 40%;
+   	left: 80%;
+	width: 15vmin;
+	margin-top: -7.5vmin; 
+   	margin-left: -7.5vmin; 
+}
+#logo5
+{
+	position: absolute;
+   	top: 60%;
+   	left: 70%;
+	width: 15vmin;
+	margin-top: -7.5vmin; 
+   	margin-left: -7.5vmin; 
+}
+.customSlide
+{
+	width: 100%;
+	height: 60vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.l0
+{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	letter-spacing: 5px;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	padding-left: 12px;
+	padding-right: 0px;
+	z-index: 50;
+	overflow-wrap: break-word;
+	text-overflow: ellipsis;
+	line-height: 25px;
+}
+.l1
+{
+	z-index: 40;
+}
+.l2
+{
+	z-index: 30;
+}
+.l3
+{
+	z-index: 20;
+}
+.headerPlaceholder
+{
+	width: 100%;
+	height: 70px;
+	z-index: 0;
+}
+#header0
+{
+	color: #f46e07;
+	position: fixed;
+	top: 0vh;
+	left: 0%;
+	width: 25%;
+	height: 70px;
+	background: #004040;
+}
+#header1
+{
+	color: #004040;
+	position: fixed;
+	top: 0vh;
+	left: 25%;
+	width: 25%;
+	height: 70px;
+	background: #f46e07;
+}
+#header2
+{
+	color: #f46e07;
+	position: fixed;
+	top: 0vh;
+	left: 50%;
+	width: 25%;
+	height: 70px;
+	background: #004040;
+}
+#header3
+{
+	color: #004040;
+	position: fixed;
+	top: 0vh;
+	left: 75%;
+	width: 25%;
+	height: 70px;
+	background: #f46e07;
+}
+#h1l1
+{
+	position: fixed;
+	top: 0vh;
+	left: 0%;
+	width: 25%;
+	height: 70px;
+	background: #f46e07;
+}
+#h0l1
+{
+	position: fixed;
+	top: 0vh;
+	left: 25%;
+	width: 75%;
+	height: 70px;
+	background: #004040;
+}
+#h2l2
+{
+	position: fixed;
+	top: 0vh;
+	left: 0%;
+	width: 50%;
+	height: 70px;
+	background: #004040;
+}
+#h1l2
+{
+	position: fixed;
+	top: 0vh;
+	left: 50%;
+	width: 50%;
+	height: 70px;
+	background: #f46e07;
+}
+#h3l3
+{
+	position: fixed;
+	top: 0vh;
+	left: 0%;
+	width: 75%;
+	height: 70px;
+	background: #f46e07;
+}
+#h2l3
+{
+	position: fixed;
+	top: 0vh;
+	left: 75%;
+	width: 25%;
+	height: 70px;
+	background: #004040;
+}
+#test
+{
+	width:100%;
+	height:100vh;
+}
+#bot
+{
+	color:white;
+	background: #004040;
+	height: 45vh;
+}
+#ttm
+{
+	font-size: 80px;
+}
+#carousel1
+{
+	background-color: black;
+	font-family: 'Source Code Pro', monospace;
+}
+#carousel2
+{
+	background-color: black;
+	font-family: 'Source Code Pro', monospace;
+}
+#carousel3
+{
+	background-color: black;
+	font-family: 'Bad Script', cursive;
+}
