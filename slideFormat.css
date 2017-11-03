@@ -15,7 +15,7 @@
 #dev1
 {
 	position: absolute;
-	z-index: 8;
+	z-index: 6;
 	color:white;
 	font-size: 30px;
 	top: 10%;
@@ -43,7 +43,7 @@
 	top: 20%;
 	left: 15%;
 	width: 80%;
-	z-index: 8;
+	z-index: 6;
 	color:black;
 }
 #prog2
@@ -72,4 +72,32 @@
 {
 	background: url(imgs/rgb.jpg) no-repeat center;
 	size: 100% 100%;
+}
+.paraTrigger
+{
+	position: absolute;
+	width: 40%;
+	left: 30%;
+	height: 60%;
+	top: 20%;
+	z-index: 9;
+}
+.hoverPara
+{
+	position: absolute;
+	z-index: 8;
+	padding: 40px 80px 40px 80px;
+	color:white;
+	font-size: 30px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+    transition: opacity 500ms;
+    pointer-events: none;
+}
+.paraTrigger:hover + .hoverPara
+{
+	opacity: 1;
 }
