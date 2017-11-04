@@ -3,9 +3,10 @@
 	font-family: 'Quicksand', sans-serif;
 	width: 100%;
 	height: auto;
-	color: white;
+	color: black;
 	padding-left: 50px;
 	padding-right: 50px;
+	background-color: #f5fff5;
 }
 #dev0
 {

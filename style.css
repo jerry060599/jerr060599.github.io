@@ -1,20 +1,24 @@
+h1
+{
+	font-size: 350%;
+}
 body
 {
-	background: #004040;
+	background: black;
 }
 #top
 {
 	font-family: 'Quicksand', sans-serif;
 	background: 
 	linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
+      rgba(1, 1, 1, 0.5), 
+      rgba(1, 1, 1, 0.5)
     ),
     url(imgs/world.jpg) no-repeat fixed center;
 
 	width: 100%;
 	height: calc(100vh - 70px);
-	background-color: #004040;
+	background-color: black;
 	color: white;
 }
 #profilePic
@@ -35,60 +39,6 @@ body
 	margin-top: -15vmin; 
    	margin-left: -15vmin; 
 }
-#logo0
-{
-	position: absolute;
-   	top: 20%;
-   	left: 30%;
-	width: 15vmin;
-	margin-top: -7.5vmin; 
-   	margin-left: -7.5vmin; 
-}
-#logo1
-{
-	position: absolute;
-   	top: 40%;
-   	left: 20%;
-	width: 15vmin;
-	margin-top: -7.5vmin; 
-   	margin-left: -7.5vmin; 
-}
-#logo2
-{
-	position: absolute;
-   	top: 60%;
-   	left: 30%;
-	width: 15vmin;
-	margin-top: -7.5vmin; 
-   	margin-left: -7.5vmin; 
-}
-#logo3
-{
-	position: absolute;
-   	top: 20%;
-   	left: 70%;
-	width: 15vmin;
-	margin-top: -7.5vmin; 
-   	margin-left: -7.5vmin; 
-}
-#logo4
-{
-	position: absolute;
-   	top: 40%;
-   	left: 80%;
-	width: 15vmin;
-	margin-top: -7.5vmin; 
-   	margin-left: -7.5vmin; 
-}
-#logo5
-{
-	position: absolute;
-   	top: 60%;
-   	left: 70%;
-	width: 15vmin;
-	margin-top: -7.5vmin; 
-   	margin-left: -7.5vmin; 
-}
 .customSlide
 {
 	width: 100%;
@@ -104,10 +54,7 @@ body
 	font-family: 'Quicksand', sans-serif;
 	font-size: 30px;
 	letter-spacing: 5px;
-	padding-top: 3px;
-	padding-bottom: 0px;
-	padding-left: 12px;
-	padding-right: 0px;
+	padding: 7px 0px 0px 12px;
 	z-index: 50;
 	overflow-wrap: break-word;
 	text-overflow: ellipsis;
@@ -133,43 +80,43 @@ body
 }
 #header0
 {
-	color: #f46e07;
+	color: #f5fff5;
 	position: fixed;
 	top: 0vh;
 	left: 0%;
 	width: 25%;
 	height: 70px;
-	background: #004040;
+	background: #f46607;
 }
 #header1
 {
-	color: #004040;
+	color: #f46607;
 	position: fixed;
 	top: 0vh;
 	left: 25%;
 	width: 25%;
 	height: 70px;
-	background: #f46e07;
+	background: #f5fff5;
 }
 #header2
 {
-	color: #f46e07;
+	color: #f5fff5;
 	position: fixed;
 	top: 0vh;
 	left: 50%;
 	width: 25%;
 	height: 70px;
-	background: #004040;
+	background: #f46607;
 }
 #header3
 {
-	color: #004040;
+	color: #f46607;
 	position: fixed;
 	top: 0vh;
 	left: 75%;
 	width: 25%;
 	height: 70px;
-	background: #f46e07;
+	background: #f5fff5;
 }
 #h1l1
 {
@@ -178,7 +125,7 @@ body
 	left: 0%;
 	width: 25%;
 	height: 70px;
-	background: #f46e07;
+	background: #f5fff5;
 }
 #h0l1
 {
@@ -187,7 +134,7 @@ body
 	left: 25%;
 	width: 75%;
 	height: 70px;
-	background: #004040;
+	background: #f5fff5;
 }
 #h2l2
 {
@@ -196,7 +143,7 @@ body
 	left: 0%;
 	width: 50%;
 	height: 70px;
-	background: #004040;
+	background: #f46607;
 }
 #h1l2
 {
@@ -205,7 +152,7 @@ body
 	left: 50%;
 	width: 50%;
 	height: 70px;
-	background: #f46e07;
+	background: #f46607;
 }
 #h3l3
 {
@@ -214,7 +161,7 @@ body
 	left: 0%;
 	width: 75%;
 	height: 70px;
-	background: #f46e07;
+	background: #f5fff5;
 }
 #h2l3
 {
@@ -223,7 +170,7 @@ body
 	left: 75%;
 	width: 25%;
 	height: 70px;
-	background: #004040;
+	background: #f5fff5;
 }
 #test
 {
@@ -232,8 +179,8 @@ body
 }
 #bot
 {
-	color:white;
-	background: #004040;
+	color: #f5fff5;
+	background: #f46607;
 	height: 45vh;
 }
 #ttm
@@ -243,15 +190,19 @@ body
 #carousel1
 {
 	background-color: black;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Quicksand', sans-serif;
 }
 #carousel2
 {
 	background-color: black;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Quicksand', sans-serif;
 }
 #carousel3
 {
 	background-color: black;
-	font-family: 'Bad Script', cursive;
+	font-family: 'Caveat', cursive;
+}
+#kittens
+{
+	color: white;
 }
