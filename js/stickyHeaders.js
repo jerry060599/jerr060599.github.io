@@ -17,24 +17,52 @@ var h1l2 = document.getElementById("h1l2");
 var h3l3 = document.getElementById("h3l3");
 var h2l3 = document.getElementById("h2l3");
 
-h0.style.top=h0l1.style.top=clamp(hph0.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
-h1.style.top=h1l1.style.top=h1l2.style.top=clamp(hph1.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
-h2.style.top=h2l2.style.top=h2l3.style.top=clamp(hph2.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
-h3.style.top=h3l3.style.top=clamp(hph3.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
-
-function clamp(a, b, c)
+function clamp(el, tar)
 {
-  if(a < b)
-    return b;
-  if(a > c)
-    return c;
-  return a;
+	var a = tar.offsetTop-window.pageYOffset-1;
+	if(a < 0)
+	{
+		el.style.top="-1px";
+		el.style.position="fixed";
+	}
+	else if(a > window.innerHeight - 70)
+	{
+		el.style.top = window.innerHeight - 70 +"px";
+		el.style.position="fixed";
+	}
+	else
+	{
+		el.style.top = tar.offsetTop - 1 + "px";
+		el.style.position="absolute";
+	}
 }
+function matchSPos(el, to)
+{
+	el.style.position = to.style.position;
+	el.style.top = to.style.top;
+}
+
+clamp(h0, hph0);
+  matchSPos(h0l1, h0);
+  clamp(h1, hph1);
+  matchSPos(h1l1, h1);
+  matchSPos(h1l2, h1);
+  clamp(h2, hph2);
+  matchSPos(h2l2, h2);
+  matchSPos(h2l3, h2);
+  clamp(h3, hph3);
+  matchSPos(h3l3, h3);
 
 window.onscroll = window.onresize = function(e) 
 {
-  h0.style.top=h0l1.style.top=clamp(hph0.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
-  h1.style.top=h1l1.style.top=h1l2.style.top=clamp(hph1.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
-  h2.style.top=h2l2.style.top=h2l3.style.top=clamp(hph2.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
-  h3.style.top=h3l3.style.top=clamp(hph3.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
+  clamp(h0, hph0);
+  matchSPos(h0l1, h0);
+  clamp(h1, hph1);
+  matchSPos(h1l1, h1);
+  matchSPos(h1l2, h1);
+  clamp(h2, hph2);
+  matchSPos(h2l2, h2);
+  matchSPos(h2l3, h2);
+  clamp(h3, hph3);
+  matchSPos(h3l3, h3);
 }
