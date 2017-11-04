@@ -17,10 +17,10 @@ var h1l2 = document.getElementById("h1l2");
 var h3l3 = document.getElementById("h3l3");
 var h2l3 = document.getElementById("h2l3");
 
-h0.style.top=h0l1.style.top=clamp(hph0.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
-h1.style.top=h1l1.style.top=h1l2.style.top=clamp(hph1.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
-h2.style.top=h2l2.style.top=h2l3.style.top=clamp(hph2.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
-h3.style.top=h3l3.style.top=clamp(hph3.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
+h0.style.top=h0l1.style.top=clamp(hph0.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
+h1.style.top=h1l1.style.top=h1l2.style.top=clamp(hph1.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
+h2.style.top=h2l2.style.top=h2l3.style.top=clamp(hph2.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
+h3.style.top=h3l3.style.top=clamp(hph3.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
 
 function clamp(a, b, c)
 {
@@ -33,8 +33,8 @@ function clamp(a, b, c)
 
 window.onscroll = window.onresize = function(e) 
 {
-  h0.style.top=h0l1.style.top=clamp(hph0.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
-  h1.style.top=h1l1.style.top=h1l2.style.top=clamp(hph1.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
-  h2.style.top=h2l2.style.top=h2l3.style.top=clamp(hph2.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
-  h3.style.top=h3l3.style.top=clamp(hph3.offsetTop-window.pageYOffset,0, window.innerHeight-70)+window.pageYOffset+"px";
+  h0.style.top=h0l1.style.top=clamp(hph0.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
+  h1.style.top=h1l1.style.top=h1l2.style.top=clamp(hph1.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
+  h2.style.top=h2l2.style.top=h2l3.style.top=clamp(hph2.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
+  h3.style.top=h3l3.style.top=clamp(hph3.offsetTop-window.pageYOffset-1,0, window.innerHeight-70)+window.pageYOffset+"px";
 }
