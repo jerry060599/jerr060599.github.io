@@ -87,7 +87,7 @@ body
 }
 #header0
 {
-	color: #f5fff5;
+	color: #fafaff;
 	position: absolute;
 	top: 0vh;
 	left: 0%;
@@ -103,11 +103,11 @@ body
 	left: 25%;
 	width: 25%;
 	height: 72px;
-	background: #f5fff5;
+	background: #fafaff;
 }
 #header2
 {
-	color: #f5fff5;
+	color: #fafaff;
 	position: absolute;
 	top: 0vh;
 	left: 50%;
@@ -123,7 +123,7 @@ body
 	left: 75%;
 	width: 25%;
 	height: 72px;
-	background: #f5fff5;
+	background: #fafaff;
 }
 #h1l1
 {
@@ -132,7 +132,7 @@ body
 	left: 0%;
 	width: 25%;
 	height: 72px;
-	background: #f5fff5;
+	background: #fafaff;
 }
 #h0l1
 {
@@ -141,7 +141,7 @@ body
 	left: 25%;
 	width: 75%;
 	height: 72px;
-	background: #f5fff5;
+	background: #fafaff;
 }
 #h2l2
 {
@@ -168,7 +168,7 @@ body
 	left: 0%;
 	width: 75%;
 	height: 72px;
-	background: #f5fff5;
+	background: #fafaff;
 }
 #h2l3
 {
@@ -177,7 +177,7 @@ body
 	left: 75%;
 	width: 25%;
 	height: 72px;
-	background: #f5fff5;
+	background: #fafaff;
 }
 #test
 {
@@ -186,7 +186,7 @@ body
 }
 #bot
 {
-	color: #f5fff5;
+	color: #fafaff;
 	background: #f46607;
 	height: 45vh;
 }
