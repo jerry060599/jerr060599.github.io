@@ -3,8 +3,8 @@ h1 {
 }
 body {
 	background: #121821;
-	margin-right: 20%; 
-   	margin-left: 20%; 
+	margin-right: 14%; 
+   	margin-left: 14%; 
 }
 ::selection {
   background: #00adb5; /* WebKit/Blink Browsers */
@@ -93,8 +93,8 @@ body {
 	color: #393e46;
 	position: absolute;
 	top: 0vh;
-	left: 20%;
-	width: 20%;
+	left: 14%;
+	width: 24%;
 	height: 72px;
 	background: #00adb5;
 }
@@ -102,8 +102,8 @@ body {
 	color: #00adb5;
 	position: absolute;
 	top: 0vh;
-	left: 40%;
-	width: 20%;
+	left: 38%;
+	width: 24%;
 	height: 72px;
 	background: #393e46;
 
@@ -112,40 +112,40 @@ body {
 	color: #393e46;
 	position: absolute;
 	top: 0vh;
-	left: 60%;
-	width: 20%;
+	left: 62%;
+	width: 24%;
 	height: 72px;
 	background: #00adb5;
 }
 #h0p0 {
 	position: absolute;
 	top: 0vh;
-	left: 40%;
-	width: 40%;
+	left: 38%;
+	width: 48%;
 	height: 72px;
 	background: #00adb5;
 }
 #h0p1 {
 	position: absolute;
 	top: 0vh;
-	left: 40%;
-	width: 40%;
+	left: 38%;
+	width: 48%;
 	height: 72px;
 	background: #393e46;
 }
 #h1p0 {
 	position: absolute;
 	top: 0vh;
-	left: 20%;
-	width: 20%;
+	left: 14%;
+	width: 24%;
 	height: 72px;
 	background: #393e46;
 }
 #h1p1 {
 	position: absolute;
 	top: 0vh;
-	left: 20%;
-	width: 40%;
+	left: 14%;
+	width: 48%;
 	height: 72px;
 	background: #00adb5;
 }
