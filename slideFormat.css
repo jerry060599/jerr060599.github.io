@@ -3,8 +3,10 @@
 	width: 100%;
 	height: auto;
 	color: white;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:120px;
+	padding-right:120px;
 	background-color: #222831;
 }
 #dev0 {
