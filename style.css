@@ -79,7 +79,15 @@ body {
 	width: 100%;
 	height: 72px;
 	z-index: 0;
-	background-color: #00adb5;
+	background-color: #222831;
+}
+.projectCard {
+	width: 100%;
+	height: auto;
+	color: white;
+	font-size: 150%;
+	border-radius: 6px;
+	background-color: #393e46;
 }
 #header0 {
 	color: #393e46;
@@ -163,7 +171,4 @@ body {
 #carousel3 {
 	background-color: black;
 	font-family: 'Caveat', cursive;
-}
-#kittens {
-	color: white;
 }

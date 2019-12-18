@@ -90,8 +90,25 @@
 
 <!--dev-->
 <div id="hph1" class="headerPlaceholder"></div>
-<div style="color: white;">
-	Under contstruction.
+<div style="color: white;background-color: #222831;">
+	<div style="display: grid;grid-template-columns: 1fr;padding: 50px;grid-gap: 50px 50px;">
+		<div class="projectCard">
+			<iframe align="left" style="padding:20px;" width="400" height="300" src="https://www.youtube.com/embed/r__ziXEtQQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div style="padding:20px;">
+				<h3>Protien Protein VR Visualization</h3>
+				I worked under Prof. Gurav Chopra and the Envision Center visualizing protein molecules in VR. I started with a simple instanced renderer. From there I implemented billboarding to reduce the poly count; a compute-based atom culling algorithm to address fill rate bottlenecks, a fluid rendering inspired iso surface renderer to address Van Der waals shells, and octahedral imposters to address background rendering. I came up with the idea of running a linear regression on the atom positions to better align axis-aligned-bounding-boxes. I ended up with the ability to render 50k+ atoms complete with labels and bonds at the speed and fidelity VR applications require.
+			</div>
+		</div>
+		<div class="projectCard">
+			<iframe align="left" style="padding:20px;" width="400" height="300" src="https://www.youtube.com/embed/Nllp6wE5--s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div style="padding:20px;">
+				<h3>2D SPH fluid simulation with two-way coupled solids</h3>
+				A 2D SPH fluid simulation that leverages compute shaders in OpenGL to dramatically speed up frame times. The fluid particles are simulated with a spatial hashing algorithm synchronized with atomics. Solids are simulated as fluid particle clusters with particle impulses obtained through parallel reduction. Rendering is done through the use of a variable radius blur combined with a threshold function. On a RTX 2070 Super, the simulation can support up to half a million particles with ~5ms per time step (dt=8ms). The video on the left is playedback at realtime on my laptop with each scene containing ~100k particles.
+			</div>
+		</div>
+		<div class="projectCard">Under construction</div>
+		<div class="projectCard">1</div>
+	</div>
 </div>
 
 <!--programming-->
@@ -140,7 +157,7 @@
 <div id="bot" class="text-center">
 	<h1 class="text-center" style="color: white; font-size: 900%;">I Like Cats.</h1>
 	<div style="font-family: 'Quicksand', sans-serif;">
-		<a id="kittens" href="mailto:jerry060599@gmail.com"><u>jerry060599@gmail.com</u></a>
+		<a style="color:white" href="mailto:jerry060599@gmail.com"><u>jerry060599@gmail.com</u></a>
 	</div>
 </div>
 
