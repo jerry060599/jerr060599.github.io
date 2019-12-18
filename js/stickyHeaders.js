@@ -1,24 +1,18 @@
 var h0 = document.getElementById("header0");
 var h1 = document.getElementById("header1");
 var h2 = document.getElementById("header2");
-var h3 = document.getElementById("header3");
 
 var hph0 = document.getElementById("hph0");
 var hph1 = document.getElementById("hph1");
 var hph2 = document.getElementById("hph2");
-var hph3 = document.getElementById("hph3");
 
-var h1l1 = document.getElementById("h1l1");
-var h0l1 = document.getElementById("h0l1");
+var h0p0 = document.getElementById("h0p0");
+var h0p1 = document.getElementById("h0p1");
 
-var h2l2 = document.getElementById("h2l2");
-var h1l2 = document.getElementById("h1l2");
+var h1p0 = document.getElementById("h1p0");
+var h1p1 = document.getElementById("h1p1");
 
-var h3l3 = document.getElementById("h3l3");
-var h2l3 = document.getElementById("h2l3");
-
-function clamp(el, tar)
-{
+function clamp(el, tar) {
 	var a = tar.offsetTop-window.pageYOffset-1;
 	if(a < 0)
 	{
@@ -36,33 +30,23 @@ function clamp(el, tar)
 		el.style.position="absolute";
 	}
 }
-function matchSPos(el, to)
-{
+function matchSPos(el, to) {
 	el.style.position = to.style.position;
 	el.style.top = to.style.top;
 }
-
-clamp(h0, hph0);
-  matchSPos(h0l1, h0);
-  clamp(h1, hph1);
-  matchSPos(h1l1, h1);
-  matchSPos(h1l2, h1);
-  clamp(h2, hph2);
-  matchSPos(h2l2, h2);
-  matchSPos(h2l3, h2);
-  clamp(h3, hph3);
-  matchSPos(h3l3, h3);
-
-window.onscroll = window.onresize = function(e) 
-{
+function snapHeader() {
   clamp(h0, hph0);
-  matchSPos(h0l1, h0);
   clamp(h1, hph1);
-  matchSPos(h1l1, h1);
-  matchSPos(h1l2, h1);
   clamp(h2, hph2);
-  matchSPos(h2l2, h2);
-  matchSPos(h2l3, h2);
-  clamp(h3, hph3);
-  matchSPos(h3l3, h3);
+
+  matchSPos(h0p0, h0);
+  matchSPos(h0p1, h1);
+  matchSPos(h1p0, h1);
+  matchSPos(h1p1, h2);
+}
+
+snapHeader();
+
+window.onscroll = window.onresize = function(e) {
+  snapHeader();
 }
