@@ -95,7 +95,7 @@
 		<div class="projectCard">
 			<iframe align="left" style="padding:20px;" width="400" height="300" src="https://www.youtube.com/embed/r__ziXEtQQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<div style="padding:20px;">
-				<h3>Protien Protein VR Visualization</h3>
+				<h3>Protein VR Visualization</h3>
 				I worked under Prof. Gurav Chopra and the Envision Center visualizing protein molecules in VR. I started with a simple instanced renderer. From there I implemented billboarding to reduce the poly count; a compute-based atom culling algorithm to address fill rate bottlenecks, a fluid rendering inspired iso surface renderer to address Van Der waals shells, and octahedral imposters to address background rendering. I came up with the idea of running a linear regression on the atom positions to better align axis-aligned-bounding-boxes. I ended up with the ability to render 50k+ atoms complete with labels and bonds at the speed and fidelity VR applications require.
 			</div>
 		</div>
@@ -115,7 +115,7 @@
 		</div>
 
 		<div class="projectCard">
-			<img width="400" height="300" src="imgs/confidential.png" align="left" style="padding:20px;"></img>
+			<img width="400" height="300" src="imgs/engineStock.jpg" align="left" style="padding:20px;"></img>
 			<div style="padding:20px;">
 				At the Envision Center, we got a request for an interactive manual for engine disassembly from an engine manufacturer. The manual was a monster with hundreds of steps each with individual substeps, warnings, and descriptions. It was cumbersome to work with, difficult to organize, and untenable with the amount of states needed. A traditional keyframe animation system simply wouldn’t do. I spent a good couple of weeks just going over the design and in the end I came up with a system of annotated object hierarchies that could then be automatically compiled into traditional keyframe animations through simple graph traversal rules. My system took advantage of the hierarchical structure that CAD engineers typically maintained for engines while keeping everything neat, extensible, quick to modify, and easy to organize. Picture not provided due to IP concerns.
 			</div>
