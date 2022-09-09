@@ -63,6 +63,7 @@
 	<br/>
 	<h1 style="color: #00adb5;">Chi Cheng (Jerry) Hsu</h1>
 	<div style="font-size: 130%">
+		<u><a href="Resume.pdf" style="color: white; font-size: 110%;">Curriculum Vitae</a></u><br/>
 		<b>
 		University of Utah, Phd</b>
 		<br/>
@@ -71,7 +72,6 @@
 		<!--<u><a href="Resume.pdf" style="color: white;">PDF Resume</a></u>
 		<br/>-->
 		<br/>
-
 		<p>I graduated from Purdue double majoring in CS and Mathmatics in the spring of 2020. 
 		<br/>
 		I worked with computer graphics alot at Purdue and I'm now a Phd student in the School of Computing here at the University of Utah.
@@ -98,6 +98,39 @@
 <div id="hph1" class="headerPlaceholder"></div>
 <div style="color: white;background-color: #222831;">
 	<div style="display: grid;grid-template-columns: 1fr;padding-top:50px;padding-bottom:50px;padding-left:120px;padding-right:120px;grid-gap: 50px 50px;">
+		<div class="projectCard">
+  			<img id="siggraphLogo" src="imgs/acmSiggraphLogo.jpg" align="middle" class="img-circle" width="200" height="200" style="float: left;  padding: 50px;">
+			<div style="padding:20px;">
+				<h3>ACM SIGGRAPH 2022: A general two-stage initialization for sag-free deformable simulations</h3>
+				<h3>University of Utah, 2020 - 2022</h3>
+
+				I worked under Prof. Gurav Chopra and the Envision Center visualizing protein molecules in VR. I started with a simple instanced renderer. From there I implemented billboarding to reduce the poly count; a compute-based atom culling algorithm to address fill rate bottlenecks, a fluid rendering inspired iso surface renderer to address Van Der waals shells, and octahedral imposters to address background rendering. I came up with the idea of running a linear regression on the atom positions to better align axis-aligned-bounding-boxes. I ended up with the ability to render 50k+ atoms complete with labels and bonds at the speed and fidelity VR applications require.
+			</div>
+		</div>
+		<div class="projectCard">
+			<div style="padding:20px;">
+				<h2>Sag Free Initialization for Complex Hair Simulations</h2>
+				<h2>Tencent Lightspeed & Quantum Studios, 2022 - Present</h2>
+
+				Currently working on publication. A continuation of the above work on sag-free initializations with the goal of addressing sag on complex hair simulations with full collision, friction, and many thousands of individual guide hairs. Hair simulation using XPBD Cosserat Rods coupled to a MPM continuum friction model. 
+			</div>
+		</div>
+		<div class="projectCard">
+			<div style="padding:20px;">
+				<h2>Intelligent Adaptive Splitting for Vector Representations</h2>
+				<h2>Adobe, 2021 - Present</h2>
+
+				Currently working on publication. Discrete parameters like the number of nodes in a Bezier curve are often optimized through handcrafted heuristics.  This provides a theoretically sound and generalizable framework to intelligently perform discrete node additions (or splitting) on vector representations like splines, diffusion curves, or gradient meshes. Applications include curve fitting, image fitting, and adaptive simulations. 
+			</div>
+		</div>
+		<div class="projectCard">
+			<div style="padding:20px;">
+				<h2>Yarn-Level Cloth Simulation</h2>
+				<h2>University of Utah, 2020</h2>
+				An implementation of J. Kadors yarn-level cloth simulation with a couple of differences. Implicit backwards Euler time integration with Newton steps. Massively parallelized CUDA implementation from collision detection to sparse matrix creation and PCG solve. 
+			</div>
+		</div>
+
 		<div class="projectCard">
 			<iframe align="left" style="padding:20px;" width="400" height="300" src="https://www.youtube.com/embed/r__ziXEtQQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<div style="padding:20px;">
