@@ -53,7 +53,7 @@
 <div id="top" class="container-fluid">
   	<img id="profilePic" src="imgs/profile.png" class="img-circle">
   	<div id="name" class="text-center">
-  		<h1>Chi Cheng (Jerry) Hsu</h1>
+  		<h1>Jerry (Chi Cheng) Hsu</h1>
   	</div>
 </div>
 
@@ -61,9 +61,9 @@
 <div id="hph0" class="headerPlaceholder"></div>
 <div id="about0">
 	<br/>
-	<h1 style="color: #00adb5;">Chi Cheng (Jerry) Hsu</h1>
-	<div style="font-size: 130%">
-		<u><a href="Resume.pdf" style="color: white; font-size: 130%;">Curriculum Vitae</a></u><br/>
+	<h1 style="color: #00adb5;">Jerry (Chi Cheng) Hsu</h1>
+	<div style="font-size: 150%">
+		<u><a href="Resume.pdf" style="color: white; font-size: 250%;">Curriculum Vitae</a></u><br/>
 		<b>
 		University of Utah, Phd</b>
 		<br/>
@@ -98,6 +98,18 @@
 <div id="hph1" class="headerPlaceholder"></div>
 <div style="color: white;background-color: #222831;">
 	<div style="display: grid;grid-template-columns: 1fr;padding-top:50px;padding-bottom:50px;padding-left:120px;padding-right:120px;grid-gap: 50px 50px;">
+		<div class="projectCard">
+  			<img id="siggraphLogo" src="imgs/acmSiggraphLogo.jpg" align="middle" class="img-circle" width="200" height="200" style="float: left;  padding: 50px;">
+			<div style="padding:20px;">
+				<h2>ACM SIGGRAPH 2024: Real-time Physically Guided Hair Interpolation</h2>
+				<h2>Tencent Lightspeed & Quantum Studios, 2023 - 2022</h2>
+				<a href="https://graphics.cs.utah.edu/research/projects/sag-free-hair/">graphics.cs.utah.edu</a>
+				<br/>
+				Strand-based hair simulations have recently become increasingly popular for a range of real-time applications. However, accurately simulating the full number of hair strands remains challenging. A commonly employed technique involves simulating a subset of guide hairs to capture the overall behavior of the hairstyle. Details are then enriched by interpolation using linear skinning. Hair interpolation enables fast real-time simulations but frequently leads to various artifacts during runtime. As the skinning weights are often pre-computed, substantial variations between the initial and deformed shapes of the hair can cause severe deviations in fine hair geometry. Straight hairs may become kinked, and curly hairs may become zigzags.
+				This work introduces a novel physical-driven hair interpolation scheme that utilizes existing simulated guide hair data. Instead of directly operating on positions, we interpolate the internal forces from the guide hairs before efficiently reconstructing the rendered hairs based on their material model. We formulate our problem as a constraint satisfaction problem for which we present an efficient solution. Further practical considerations are addressed using regularization terms that regulate penetration avoidance and drift correction. We have tested various hairstyles to illustrate that our approach can generate visually plausible rendered hairs with only a few guide hairs and minimal computational overhead, amounting to only about 20% of conventional linear hair interpolation. This efficiency underscores the practical viability of our method for real-time applications.
+			</div>
+		</div>
+
 		<div class="projectCard">
   			<img id="siggraphLogo" src="imgs/acmSiggraphLogo.jpg" align="middle" class="img-circle" width="200" height="200" style="float: left;  padding: 50px;">
 			<div style="padding:20px;">
