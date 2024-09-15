@@ -10,7 +10,7 @@
 	Comments on: Hello world!	</title>
 	<atom:link href="/hello-world/feed/" rel="self" type="application/rss+xml" />
 	<link>/hello-world/</link>
-	<description></description>
+	<description>Researcher of Graphics</description>
 	<lastBuildDate>Mon, 09 Sep 2024 22:29:15 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
